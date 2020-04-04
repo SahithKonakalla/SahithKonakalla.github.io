@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://sahithkonakalla.github.io" href="">
+    <information>
+        <title>Uno</title>
+        <vendor>Me</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+" href=
+           "http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Uno.jar"
+            main="true" />
+
+    </resources>
+    <application-desc
+         name="Uno"
+         main-class="Driver"
+         width="1000"
+         height="800">
+     </application-desc>
+     <update check="background"/>
+</jnlp>
